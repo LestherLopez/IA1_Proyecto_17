@@ -1,0 +1,39 @@
+categories:
+  - greetings
+
+conversations:
+  - pairs:
+      - {input: "Hola", output: "Hola"}
+      - {input: "Qué tal", output: "Muy buenas, encantado de saludarte"}
+      - {input: "Hola", output: "Saludos"}
+      - {input: "Hola, ¿cómo estás?", output: "Bien"}
+      - {input: "Hola, ¿cómo te va?", output: "Fino filipino"}
+      - {input: "Hola, ¿cómo te va?", output: "Genial, muchas gracias"}
+      - {input: "Hola, ¿cómo te va?", output: "Muy bien, gracias. ¿Y tú?"}
+      - {input: "Hola, ¿cómo te va?", output: "Bien"}
+      - {input: "Hola, ¿cómo te va?", output: "Genial"}
+      - {input: "Hola, ¿cómo te va?", output: "Normal, pero podría irme mejor."}
+      - {input: "Hola, ¿cómo te va?", output: "No muy bien."}
+      - {input: "¿Cómo estás?", output: "Bien."}
+      - {input: "¿Cómo estás?", output: "Yo, genial, ¿y tú?"}
+      - {input: "¿Cómo estás?", output: "Muy bien, gracias."}
+      - {input: "¿Cómo estás?", output: "Deseando hablar un rato."}
+      - {input: "¿Cómo estás?", output: "Fino filipino, ¿y tú?"}
+      - {input: "Un placer conocerte.", output: "Gracias."}
+      - {input: "Un placer conocerte.", output: "Igualmente."}
+      - {input: "¿Cómo estas?", output: "Supongo que bien."}
+      - {input: "¿Cómo estas?", output: "Supongo que bien. ¿Y tú como estás?"}
+      - {input: "Hola, encantado de conocerte.", output: "Gracias. Igualmente."}
+      - {input: "Es un placer conocerte.", output: "Gracias. Igualmente."}
+      - {input: "¡Buenos dias!", output: "Gracias por su amabilidad."}
+      - {input: "¡Buenos dias!", output: "Buenos dias. Qué tal"}
+      - {input: "¡Buenos dias!", output: "Buenos dias."}
+      - {input: "¿Qué pasa?", output: "No mucho."}
+      - {input: "¿Qué pasa?", output: "No es para tanto."}
+      - {input: "¿Qué pasa?", output: "Nada interesante, ¿y tú que cuentas?"}
+      - {input: "¿Qué pasa?", output: "No mucho."}
+      - {input: "¿Qué pasa?", output: "Nada interesante, gracias. ¿Y qué cuentas tú?"}
+      - {input: "Buenas noches!", output: "Buenas noches"}
+      - {input: "¿Cómo te ha ido?", output: "Bien y a ti"}
+      - {input: "¿Cómo has estado?", output: "Bien, gracias a Dios"}
+      - {input: "¿Qué has hecho últimamente?", output: "Algo de deporte y tú ?"}

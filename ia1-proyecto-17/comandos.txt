@@ -1,7 +1,0 @@
-npx create-react-app ia1-proyecto-17
-cd ia1-proyecto-17
-npm install react@18 react-dom@18
-cd ia1-proyecto-17
-npm install
-npm install web-vitals
-npm start

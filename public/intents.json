@@ -1,0 +1,77 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hola", "¿Cómo estás?", "Buenos días", "¿Hay alguien ahí?", "Hola, ¿qué tal?", "Hey", "¡Hola!", "¿Qué tal?", "Buenas tardes", "Buenas noches", "Saludos", "Hola chatbot"],
+        "responses": ["¡Hola!", "Qué bueno verte de nuevo", "Hola, ¿cómo puedo ayudarte?", "¡Un placer saludarte!", "¡Hola, espero que tengas un buen día!"],
+        "context": [""]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Adiós", "Hasta luego", "Nos vemos", "Chao", "Hasta pronto", "Me despido", "Cuídate", "Nos vemos luego", "Bye", "Que tengas un buen día"],
+        "responses": ["¡Hasta luego!", "Que tengas un buen día", "¡Adiós! Vuelve pronto.", "¡Nos vemos!", "Cuídate, hasta la próxima."],
+        "context": [""]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Gracias", "Muchas gracias", "Te agradezco", "Gracias por tu ayuda", "Muy amable", "Eres genial", "Mil gracias", "Te lo agradezco", "Gracias por todo"],
+        "responses": ["Un placer", "De nada", "Con mucho gusto.", "¡Para eso estoy aquí!", "No hay de qué, siempre dispuesto a ayudar."],
+        "context": [""]
+      },
+      {
+        "tag": "dinero",
+        "patterns": ["¿Cuánto cuesta esto?", "¿Qué precio tiene?", "¿Aceptan tarjetas?", "¿Dónde puedo pagar?", "¿Es caro?", "¿Cuánto debo?", "¿Tienes cambio?", "¿Cuánto es el total?", "¿Puedo pagar con tarjeta?", "¿Aceptan transferencias?"],
+        "responses": ["Los precios varían según el producto.", "Aceptamos efectivo y tarjetas de crédito.", "Puede pagar en la caja.", "Depende de lo que necesites, consúltame.", "Puedes pagar con tarjeta o efectivo, como prefieras."],
+        "context": [""]
+      },
+      {
+        "tag": "emociones",
+        "patterns": ["Estoy feliz", "Me siento triste", "Estoy enojado", "Tengo miedo", "Estoy emocionado", "Estoy cansado", "Estoy estresado", "Me siento ansioso", "Tengo sueño", "Estoy aburrido", "Estoy confundido"],
+        "responses": ["¡Qué bien! La felicidad es contagiosa.", "Lamento oír eso, ¿hay algo en lo que pueda ayudarte?", "Es normal sentirse así, respira profundo.", "Es importante enfrentar los miedos poco a poco.", "¡Eso suena emocionante!", "Descansar puede ayudarte a sentirte mejor.", "Hablar con alguien puede aliviar el estrés.", "La confusión es el inicio de una mayor claridad."],
+        "context": [""]
+      },
+      {
+        "tag": "perfil_bot",
+        "patterns": ["¿Quién eres?", "¿Qué haces?", "¿Cómo te llamas?", "Háblame de ti", "¿Cuál es tu propósito?", "¿Eres un humano?", "¿Qué puedes hacer?", "¿Eres inteligente?", "¿Cómo funcionas?"],
+        "responses": ["Soy un chatbot diseñado para ayudarte con información y preguntas.", "Soy un asistente virtual listo para ayudarte.", "Mi objetivo es hacer tu vida más fácil al responder tus dudas.", "No soy humano, pero puedo conversar contigo."],
+        "context": [""]
+      },
+      {
+        "tag": "psicologia",
+        "patterns": ["¿Qué es la psicología?", "¿Cómo manejar el estrés?", "Me siento deprimido", "¿Qué hago si tengo ansiedad?", "¿Qué es la felicidad?", "¿Cómo ser más positivo?", "¿Qué hago si me siento solo?", "¿Cómo superar un mal día?"],
+        "responses": ["La psicología es el estudio de la mente y el comportamiento.", "Para manejar el estrés, intenta técnicas de relajación como la meditación o el ejercicio.", "Hablar con alguien de confianza o un profesional puede ayudar.", "Respira profundamente y busca apoyo si lo necesitas.", "La felicidad es un estado de bienestar que puede variar según cada persona.", "Practicar gratitud puede ayudarte a ser más positivo."],
+        "context": [""]
+      },
+      {
+        "tag": "trivia",
+        "patterns": ["Cuéntame un dato curioso", "Dime algo interesante", "¿Sabías que...?", "Cuéntame una trivia", "Sorpréndeme con algo", "Dime algo que no sepa"],
+        "responses": ["¿Sabías que las ballenas azules son los animales más grandes que han existido?", "El corazón de un colibrí puede latir hasta 1,200 veces por minuto.", "La luz del sol tarda 8 minutos en llegar a la Tierra.", "El cerebro humano genera suficientes impulsos eléctricos como para encender una bombilla.", "Los gatos tienen más huesos que los humanos, ¡244!"],
+        "context": [""]
+      },
+      {
+        "tag": "general_conversation",
+        "patterns": ["¿Cómo estás?", "¿Qué haces?", "¿Qué tal?", "¿En qué me puedes ayudar?", "¿Qué sabes hacer?", "¿Cómo va todo?", "¿Qué hay de nuevo?", "¿Qué pasa?", "¿Puedes conversar conmigo?"],
+        "responses": ["Estoy aquí para ayudarte con lo que necesites.", "Puedo responder tus preguntas o simplemente conversar.", "Dime, ¿en qué puedo asistirte?", "¡Aquí listo para cualquier duda!", "Nada nuevo por aquí, ¿y tú?"],
+        "context": [""]
+      },
+      {
+        "tag": "salud",
+        "patterns": ["¿Cómo mantenerse saludable?", "¿Qué debo comer?", "¿Cómo bajar de peso?", "¿Es bueno hacer ejercicio?", "¿Qué alimentos son saludables?", "¿Cuánto debo dormir?", "¿Cómo mejorar mi salud?"],
+        "responses": ["Mantén una dieta equilibrada y haz ejercicio regularmente.", "Beber agua y dormir bien son esenciales para la salud.", "Consulta a un especialista para consejos específicos.", "El ejercicio es bueno para el cuerpo y la mente.", "Comer frutas, verduras y proteínas magras puede ser muy beneficioso."],
+        "context": [""]
+      },
+      {
+        "tag": "educacion",
+        "patterns": ["¿Qué es el aprendizaje?", "¿Por qué es importante la educación?", "¿Qué es la inteligencia?", "¿Cómo aprender algo nuevo?", "¿Qué debo estudiar?", "¿Cómo mejorar mis habilidades?"],
+        "responses": ["El aprendizaje es adquirir nuevos conocimientos o habilidades.", "La educación amplía tus oportunidades y comprensión del mundo.", "La inteligencia es la capacidad de resolver problemas y adaptarse.", "Practicar regularmente y ser curioso son claves para aprender.", "Estudia lo que te apasione y te motive a seguir adelante."],
+        "context": [""]
+      },
+      {
+        "tag": "trivia_historica",
+        "patterns": ["Dime un dato histórico", "¿Qué pasó en la Segunda Guerra Mundial?", "¿Quién descubrió América?", "Cuéntame algo de historia", "¿Qué sabes de los romanos?", "Háblame de civilizaciones antiguas"],
+        "responses": ["Cristóbal Colón llegó a América en 1492.", "La Segunda Guerra Mundial duró de 1939 a 1945.", "Los egipcios construyeron las pirámides hace más de 4,000 años.", "La Revolución Francesa ocurrió en 1789.", "Los romanos construyeron acueductos que todavía existen."],
+        "context": [""]
+      }
+    ]
+  }
+  
